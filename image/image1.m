@@ -1,6 +1,6 @@
 clear all;
 close all;
-RGB=imread('peppers.png');
+RGB=imread('peppers.png','png');
 I=rgb2gray(RGB);
 figure;
 imshow(RGB);
