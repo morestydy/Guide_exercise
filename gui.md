@@ -54,3 +54,8 @@ set(handles.edit2,'String','0');
 set(handles.edit3,'String','1');
 ```
 
+### 快捷菜单
+
+在gui布局放置一个坐标轴axes,添加菜单按钮,添加快捷菜单(contex menu),并修改UIContextMenu属性为AxesMenu
+
+![1589703612913](E:%5Cmatlab%5C1589703612913.png)
