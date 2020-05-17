@@ -56,6 +56,8 @@ set(handles.edit3,'String','1');
 
 ### 快捷菜单
 
+[快捷菜单](https://github.com/morestydy/Guide_matlab_exercise/tree/master/快捷菜单)
+
 在gui布局放置一个坐标轴axes,添加菜单按钮,添加快捷菜单(contex menu),并修改UIContextMenu属性为AxesMenu
 
 ![1589703726293](E:%5Cmatlab%5Cexercise%5C1589703726293.png)
@@ -64,7 +66,7 @@ set(handles.edit3,'String','1');
 
 ### 综合例子
 
-
+[综合例子](https://github.com/morestydy/Guide_matlab_exercise/tree/master/综合例子)
 
 ```matlab
 
