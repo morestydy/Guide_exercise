@@ -1,0 +1,12 @@
+clear all;
+close all;
+I=imread('rice.png');
+subplot(1,2,1);
+imshow(I);
+% J=imread('cameraman.tif');
+% subplot(1,3,2);
+% imshow(J);
+% K=imadd(I,J,'uint16');
+K=imsubtract(I,60);
+subplot(1,2,2);
+imshow(K);

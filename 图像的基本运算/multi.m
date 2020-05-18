@@ -1,0 +1,11 @@
+clear all;
+close all;
+I=imread('moon.tif');
+subplot(121);
+imshow(I);
+% J=imread('cameraman.tif');
+% subplot(1,3,2);
+% imshow(J);
+K=immultiply(I,0.5);
+subplot(1,2,2);
+imshow(K);
