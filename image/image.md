@@ -12,5 +12,13 @@
 
 [将彩色图像转换成灰度图像](https://github.com/morestydy/Guide_matlab_exercise/blob/image/image/image1.m)
 
-2.  
+![image-20200517194758648](E:%5Cmatlab%5Cexercise%5Cimage%5Cimage-20200517194758648.png)
 
+[rgb转gray](https://github.com/morestydy/Guide_matlab_exercise/blob/image/image/r2g.m)
+
+![image-20200517195311570](E:%5Cmatlab%5Cexercise%5Cimage%5Cimage-20200517195311570.png)
+
+
+
+2. 图像基本运算
+   +  
