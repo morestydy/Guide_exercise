@@ -13,3 +13,4 @@ imshow(J,[]);
 K=imabsdiff(I,J);
 subplot(133);
 imshow(K,[]);%图像类型为uint8时,需要加一个[],否则图像不清晰
+title('效果图')

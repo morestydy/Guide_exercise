@@ -1,0 +1,11 @@
+clear all;
+close all;
+[X,map]=imread('trees.tif');
+subplot(131);
+imshow('tress.tif');
+J=rgb2gray(map);
+subplot(132);
+imshow(X,J);
+subplot(133);
+imhist(J);
+set(gcf,'position',[200 200 600 300]);

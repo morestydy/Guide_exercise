@@ -1,0 +1,10 @@
+close all;
+clear all;
+A=imread('football.jpg');
+B=imrotate(A,-20,'nearest');
+subplot(2,2,1);
+imshow(A);
+title('Ð§¹ûÍ¼');
+subplot(2,2,2);
+imshow(B);
+set(gcf,'Position', [200 200 600 300]);
