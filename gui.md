@@ -226,5 +226,6 @@ imcontour统计,绘制等高线
 ![image-20200518161824007](E:%5Cmatlab%5Cexercise%5Cimage-20200518161824007.png)
 
 13. 图像边缘检测: `edge()`函数
+[边缘](https://github.com/morestydy/Guide_matlab_exercise/blob/improcess/%E5%9B%BE%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%AE%97/edg.m)
 
 常用算子Sobel,Prewitt,...
