@@ -160,6 +160,8 @@ imshow(K,[]);%图像类型为uint8时,需要加一个[],否则图像不清晰
    - `imrotate()`:图象的旋转
 
      `B=imrotate(A,-20,'nearest');`按照顺时针旋转20度
+   
+   [https://github.com/morestydy/Guide_matlab_exercise/blob/improcess/%E5%9B%BE%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%AE%97/rotate.m](https://github.com/morestydy/Guide_matlab_exercise/blob/improcess/图像的基本运算/rotate.m)
 
 ![image-20200518112930836](E:%5Cmatlab%5Cexercise%5Cimage-20200518112930836.png)
 
@@ -198,7 +200,12 @@ K=ifft2(J,256,256);         %傅里叶反变换
 
 10. 获取图像像素值`impixel()`
 
-11. 像素值的统计
+[https://github.com/morestydy/Guide_matlab_exercise/blob/improcess/%E5%9B%BE%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%AE%97/pixe.m](https://github.com/morestydy/Guide_matlab_exercise/blob/improcess/图像的基本运算/pixe.m)
+
+10. 像素值的统计
+
+    [pixelinfo.m](https://github.com/morestydy/Guide_matlab_exercise/blob/improcess/图像的基本运算/pixelinfo.m)
+
     + `impixelinfo()`:获取图像中任意点的像素值
     + `imcontour()`:绘制灰度图像的等高线
 
@@ -210,8 +217,14 @@ imcontour统计,绘制等高线
 
 12. 滤波
 
+[滤波](https://github.com/morestydy/Guide_matlab_exercise/blob/improcess/图像的基本运算/lvbo.m)
 
+中值滤波:邻域内像素按照灰度值进行排序,取中间的值作为该点的像素值,能很好保护图像边缘
 
 ![image-20200518160046863](E:%5Cmatlab%5Cexercise%5Cimage-20200518160046863.png)
 
 ![image-20200518161824007](E:%5Cmatlab%5Cexercise%5Cimage-20200518161824007.png)
+
+13. 图像边缘检测: `edge()`函数
+
+常用算子Sobel,Prewitt,...
